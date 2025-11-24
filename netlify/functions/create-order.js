@@ -4,8 +4,8 @@ exports.handler = async (event) => {
   const { amount } = JSON.parse(event.body);
 
   const razorpay = new Razorpay({
-    key_id: process.env.RAZORPAY_KEY_ID,
-    key_secret: process.env.RAZORPAY_KEY_SECRET,
+    key_id: process.env.rzp_test_RijubWMRKaDIPB,
+    key_secret: process.env.BwUK1BbSywE3PZ07yHt741r0,
   });
 
   const options = {
