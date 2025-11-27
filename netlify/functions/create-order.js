@@ -21,8 +21,8 @@ exports.handler = async function(event, context) {
     }
 
     // Use env vars (set these in Netlify UI)
-    const key_id = process.env.rzp_test_RijubWMRKaDIPB;
-    const key_secret = process.env.BwUK1BbSywE3PZ07yHt741r0;
+    const key_id = process.env.rzp_test_RjZvs1EPd9rzV2;
+    const key_secret = process.env.NGU3oBDUsiXTBvYLnePtSfif;
     if (!key_id || !key_secret) {
       return { statusCode: 500, body: JSON.stringify({ error: 'Razorpay keys not configured' }) };
     }
